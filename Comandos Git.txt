@@ -49,3 +49,14 @@ git rm <arquivo>: Remove um arquivo do repositório e do índice.
 Estes são apenas alguns comandos básicos do Git. Existem muitos outros comandos e opções disponíveis. Para 
 obter mais detalhes ou informações sobre um comando específico, você pode consultar a documentação oficial do 
 Git ou usar o comando git --help.
+
+
+
+A cada alteração no seu projeto no Visual Studio, execute no terminal os códigos:
+
+git add nome_arquivo.jr
+git commit -m "Defina a alteração feita com um titulo"
+git push
+OBS.: Caso queira ver os arquivos que já tiveram as alterações salvas ou foram enviados basta digitar o código:
+
+git status
