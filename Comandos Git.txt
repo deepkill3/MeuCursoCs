@@ -1,0 +1,51 @@
+                                    Comandos Git
+
+Configuração inicial:
+
+git config --global user.name "Seu Nome": Define o nome do usuário globalmente.
+git config --global user.email "seu@email.com": Define o e-mail do usuário globalmente.
+Iniciar um novo repositório:
+
+git init: Inicia um novo repositório Git no diretório atual.
+Clonar um repositório:
+
+git clone <url_do_repositorio>: Clona um repositório remoto para o seu ambiente local.
+Trabalhando com alterações:
+
+git add <arquivo>: Adiciona alterações no arquivo ao índice (staging area).
+git add . ou git add --all: Adiciona todas as alterações no índice.
+git commit -m "Mensagem do commit": Grava as alterações do índice no repositório.
+git status: Mostra o estado atual das alterações.
+Visualizar histórico:
+
+git log: Exibe o histórico de commits.
+git log --oneline: Exibe o histórico de commits de forma resumida.
+Branches:
+
+git branch: Lista todas as branches no repositório.
+git branch <nome_da_branch>: Cria uma nova branch.
+git checkout <nome_da_branch>: Muda para a branch especificada.
+git merge <nome_da_branch>: Mescla a branch atual com a especificada.
+Atualizar e Sincronizar:
+
+git pull: Atualiza o repositório local com as alterações do repositório remoto.
+git push: Envia as alterações locais para o repositório remoto.
+Desfazer alterações:
+
+git reset HEAD <arquivo>: Remove o arquivo do índice, mantendo as alterações locais.
+git checkout -- <arquivo>: Descarta as alterações locais em um arquivo.
+Ramificação e Fusão:
+
+git branch: Lista todas as branches no repositório.
+git branch <nome_da_branch>: Cria uma nova branch.
+git checkout <nome_da_branch>: Muda para a branch especificada.
+git merge <nome_da_branch>: Mescla a branch atual com a especificada.
+Outros comandos úteis:
+
+git remote -v: Exibe os repositórios remotos configurados.
+git diff: Mostra as diferenças entre as alterações não confirmadas.
+git rm <arquivo>: Remove um arquivo do repositório e do índice.
+
+Estes são apenas alguns comandos básicos do Git. Existem muitos outros comandos e opções disponíveis. Para 
+obter mais detalhes ou informações sobre um comando específico, você pode consultar a documentação oficial do 
+Git ou usar o comando git --help.

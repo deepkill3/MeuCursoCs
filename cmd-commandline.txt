@@ -1,0 +1,37 @@
+    O Prompt de Comando, ou CMD, é uma interface de linha de comando no sistema operacional Windows. Aqui estão 
+alguns comandos básicos que você pode usar:
+
+dir => Exibe uma lista de arquivos e pastas no diretório atual.
+cd [caminho] => Muda o diretório para o caminho especificado
+mkdir =>  Cria um novo diretório.
+del => Exclui arquivos.
+copy => Copia arquivos de um local para outro.
+rename => Renomeia um arquivo ou diretório.
+move => Move arquivos de um local para outro.
+ren => Renomeia arquivos.
+cls => Limpa a tela do prompt de comando.
+echo => Exibe mensagens na tela ou ativa/desativa o eco de comandos.
+ipconfig => Exibe informações sobre configuração de rede.
+exit /b => Finaliza o prompt de comando sem fechar a janela.
+ping => Testa a conectividade com um endereço IP ou nome de host.
+
+Para obter ajuda sobre um comando em particular, digite "cmd /?" ou "help [comando]"
+
+Abaixo está a descrição dos parâmetros usados nos exemplos:
+- /S => Aplica ações em todos os subdiretórios.
+- /Q => Faz a pergunta antes da exclusão (sobrecarrega o comando del).
+- /F => Força a exclusão sem aviso.
+- /Y => Responde Sim automaticamente às perguntas.
+
+Para obter ajuda sobre qualquer comando, digite "help" seguido do nome do comando. Por exemplo,  se você quiser
+saber mais sobre o comando dir, digite "help dir".
+
+Exemplos:
+1) Para exibir as informações do seu computador, digite "systeminfo" na linha de comando.
+2) Para mudar para o diretório "C:\Windows", digite "cd c:\windows".
+
+Estes são apenas alguns comandos básicos. Há muitos outros comandos e opções disponíveis no Prompt de Comando 
+do Windows. Para obter mais informações sobre um comando específico, você pode digitar o nome do comando 
+seguido por /?:
+
+exemplo:  cmd /?  ou systeminfo /?
