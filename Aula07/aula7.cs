@@ -14,7 +14,7 @@ using System;
 
 class aula7 {
     static void Main() {
-        public
+        const string nome = "Mateus";
 
     }
 }
