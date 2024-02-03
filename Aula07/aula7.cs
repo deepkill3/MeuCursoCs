@@ -15,6 +15,9 @@ using System;
 class aula7 {
     static void Main() {
         const string nome = "Mateus";
+        const double pi = 3.1415;
+
+        Console.WriteLine("Meu nome é {0}\n Pi: {1}", nome, pi);
 
     }
 }
