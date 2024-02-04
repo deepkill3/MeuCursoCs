@@ -1,3 +1,4 @@
+using Internal;
 using System;
 
 class aula10 {
@@ -5,5 +6,7 @@ class aula10 {
 
     static void Main(){
         DiasSemana ds = DiasSemana.Domingo;
+
+        Console.WriteLine(ds);
     }
 }
