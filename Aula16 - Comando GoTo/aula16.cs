@@ -88,6 +88,7 @@ class aula16 {
         }
         else{
             Console.WriteLine("Comando inválido!");
+            Console.WriteLine("Escolha apenas as teclas a seguir:");
             goto escolha2;
         }
     }
