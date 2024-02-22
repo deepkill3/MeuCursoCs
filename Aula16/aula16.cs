@@ -75,15 +75,20 @@ class aula16 {
             Console.WriteLine("Para o transporte escolhido, o tempo é: {0} minutos", tempo);
         }
 
+        escolha2:
         Console.WriteLine("Calcular outro transporte?[s/n]");
         escolha=char.Parse(Console.ReadLine());
 
         if(escolha == 's' || escolha == 'S'){
             goto inicio;
         }
-        else{
+        if(escolha == 'n' || escolha == 'N'){
             Console.Clear();
             Console.WriteLine("Fim do programa.");
+        }
+        else{
+            Console.WriteLine("Comando inválido!");
+            goto escolha2;
         }
     }
 }
